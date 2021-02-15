@@ -73,6 +73,7 @@ td{
   text-align: center;
   border: 10px;
   border-top: 2px solid black;
+  padding: 10px;
 }
 
 /*Req 6b*/
@@ -80,8 +81,9 @@ td{
   color: #FFFFFF;
   background-color: #7e0820;
   min-width: 125px;
-  padding: 10px 0;
+  padding: 10px;
   text-align: center;
+  vertical-align: center;
   text-transform: uppercase;
 }
 /*Req 6c*/
@@ -101,8 +103,7 @@ tr:nth-child(even){
 }
 /*Req 6f*/
 tr:hover{
-  background-color: rgb(126, 8, 32);
-  opacity: 0.25;
+  background-color: rgb(126,8,32,.25);
 }
 
 /*Req 7*/
